@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "11.0"
   s.ios.deployment_target = "11.0"
   s.source       = { :git => "https://github.com/tbLibs/Connect-SDK-iOS-Core.git",
-                     :tag => s.version,
+                     :branch => "dev",
                      :submodules => true }
 
   s.xcconfig = {
