@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "11.0"
   s.ios.deployment_target = "11.0"
   s.source       = { :git => "https://github.com/vulcanlabsvn/Connect-SDK-iOS-Core.git",
-                     :branch => "dev",
+                     :branch => "master",
                      :submodules => true }
 
   s.xcconfig = {
